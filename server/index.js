@@ -2,9 +2,9 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cookieSession = require("cookie-session");
 const passport = require("passport");
-const keys = require("./config/keys");
+const keys = require("./config/keys.js");
 require("./models/User");
-require("./services/passport");
+require("./services/passport.js");
 
 const app = express();
 
